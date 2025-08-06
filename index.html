@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أكاديمية نادي إنبي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+      body {
+        font-family: 'Cairo', sans-serif;
+      }
+      .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Hero Section -->
+    <section class="bg-white py-10 text-center shadow-md fade-in">
+      <div class="container mx-auto px-4">
+        <img src="images.png" alt="شعار أكاديمية نادي إنبي" class="mx-auto max-w-xs mb-4" />
+        <h1 class="text-4xl font-bold text-blue-900 mb-2">أكاديمية نادي إنبي</h1>
+        <p class="text-xl text-yellow-600">نصنع النجوم</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-12 px-6 max-w-4xl mx-auto fade-in">
+      <h2 class="text-2xl font-bold text-blue-900 border-b pb-2 mb-6">عن الأكاديمية</h2>
+      <p class="mb-4">تُعد أكاديمية نادي إنبي من أفضل قطاعات الناشئين في مصر، حيث تضم نخبة من المدربين المؤهلين على أعلى مستوى، وتسعى لاكتشاف وصناعة الجيل القادم من النجوم.</p>
+      <p class="mb-4">تعمل الأكاديمية تحت إشراف مباشر من إدارة نادي إنبي، بقيادة الأستاذ <strong>أيمن الشريعي</strong> ومجلس الإدارة.</p>
+      <p class="mb-4">يدير الأكاديمية الكابتن <strong>هيثم مجاهد</strong>، بإشراف الكابتن <strong>محمد إسماعيل</strong>، المدير الفني السابق للفريق الأول بنادي إنبي.</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="bg-gray-50 py-12 fade-in">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl font-bold text-blue-900 mb-6 text-center">تفاصيل الاشتراك</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="bg-white p-6 rounded-xl shadow text-center">
+            <h3 class="text-xl font-bold text-yellow-600 mb-2">غير الأعضاء</h3>
+            <p class="text-lg">٣٥٠٠ جنيه</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow text-center">
+            <h3 class="text-xl font-bold text-yellow-600 mb-2">قطاع البترول</h3>
+            <p class="text-lg">٣٠٠٠ جنيه</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow text-center">
+            <h3 class="text-xl font-bold text-yellow-600 mb-2">أعضاء نادي إنبي</h3>
+            <p class="text-lg">٢٥٠٠ جنيه</p>
+          </div>
+          <div class="bg-gray-200 p-6 rounded-xl shadow text-center relative opacity-50">
+            <h3 class="text-xl font-bold text-gray-500 mb-2">🎒 الحقيبة الرياضية</h3>
+            <p class="text-lg text-gray-600">٢٥٠٠ جنيه</p>
+            <div class="absolute top-2 left-2 bg-red-600 text-white text-sm px-3 py-1 rounded-full">غير متوفرة الآن</div>
+          </div>
+        </div>
+
+        <div class="text-center mt-10 flex justify-center gap-6 flex-wrap">
+          <a href="tel:+201010658862" class="inline-flex items-center gap-2 bg-green-600 text-white text-lg px-5 py-3 rounded-full hover:bg-green-700 transition">
+            <i class="ph ph-phone"></i> اتصل بنا
+          </a>
+          <a href="https://wa.me/201010658862" target="_blank" class="inline-flex items-center gap-2 bg-blue-900 text-white text-lg px-6 py-3 rounded-full hover:bg-blue-800 transition">
+            <i class="ph ph-whatsapp-logo"></i> تواصل واتساب
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supervision Section -->
+    <section class="py-12 px-6 max-w-4xl mx-auto fade-in">
+      <h2 class="text-2xl font-bold text-blue-900 border-b pb-2 mb-6">تحت إشراف</h2>
+      <p class="mb-2">الكابتن <strong>محمد إسماعيل</strong> – المشرف العام على الأكاديميات.</p>
+      <p class="mb-2">الكابتن <strong>هيثم مجاهد</strong> – مدير الأكاديمية.</p>
+      <p class="mb-2">الأستاذ <strong>أيمن الشريعي</strong> – رئيس نادي إنبي، بدعم من مجلس الإدارة.</p>
+      <p class="mb-2">جميع التدريبات تتم تحت إشراف مباشر من الكابتن <strong>محمد إسماعيل</strong>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center text-sm text-gray-600 py-4">
+      &copy; 2025 أكاديمية نادي إنبي | جميع الحقوق محفوظة
+    </footer>
+  </body>
+</html>
